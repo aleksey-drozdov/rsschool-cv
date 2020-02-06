@@ -15,20 +15,22 @@
 
 ### Skills
 
-Языки программирования:  
-*PUG  
-*Saas  
-*WebPack  
-*JavaScript
+Языки программирования:
 
-Графические редакторы:  
-*Adobe Photoshop
-*Adobe Illustrator
-\*Figma
+- PUG
+- Saas
+- WebPack
+- JavaScript
+
+Графические редакторы:
+
+- Adobe Photoshop
+- Adobe Illustrator
+- Figma
 
 ### Code examples
 
-**[Тут]**(https://bitbucket.org/%7B0db52f95-40d1-40c8-bdc5-26112fb819f9%7D/) можно код, на часть моих проектов.
+**[Тут](https://bitbucket.org/%7B0db52f95-40d1-40c8-bdc5-26112fb819f9%7D/)** можно код, на часть моих проектов.
 
 ### Experience
 
