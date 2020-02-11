@@ -1,0 +1,93 @@
+html {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #00aeed;
+}
+a {
+  display: inline-block;
+  background: transparent;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #00aeed;
+}
+
+ul {
+  list-style: disc;
+  margin-top: 5px;
+}
+li {
+  margin-left: 25px;
+}
+img {
+  max-width: 100%;
+}
+
+hr {
+  border: none;
+  min-height: 1px;
+}
+
+body {
+  padding: 30px 0 30px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+body > div {
+  margin-top: 40px;
+}
+body > div > p {
+  margin-top: 10px;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts {
+  margin-top: 30px;
+}
+.contacts p {
+  margin-top: 5px;
+  font-weight: 600;
+}
+.contacts a {
+  font-weight: 400;
+}
+
+.summary p {
+  margin-top: 10px;
+}
+.examples a {
+  font-weight: 600;
+}
+.experience a {
+  font-weight: 600;
+}
