@@ -27,3 +27,33 @@
 - Adobe Photoshop
 - Adobe Illustrator
 - Figma
+
+### Code examples
+
+```
+function countCats(matrix) {
+  let cats = 0;
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+      if (matrix[i][j] === '^^') {
+        cats++
+      }
+    }
+  }
+  return cats
+};
+```
+
+### Experience
+
+Весь мой опыт разработки умещается в небольшой список сайтов.([Пример](https://autoparkobereisesheim.de/))
+А так же в написании нескольных полезных скриптов, для упрощения работы с данными.
+
+### Education
+
+Закончил Факультет информационных технологий в БНТУ в 2016 году. По специальности "Инженер-электрик".  
+А так же курс “Web-Разработки (Верстки) на HTML и CSS, JavaScript” в Stormnet.
+
+### English
+
+Оценить уровень языка мне сложно, т.к. работать с литературой я могу без особых проблем, но вот в разговоре есть проблемы.
