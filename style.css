@@ -134,6 +134,17 @@ section {
   font-size: 16px;
   color: var(--c-white);
 }
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.language {
+  font-size: 1.8rem;
+}
+
 /**
  * Footer
  */
