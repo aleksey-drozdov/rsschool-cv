@@ -59,6 +59,11 @@ section {
   padding: 12px 0;
 }
 
+.nav-list {
+  display: flex;
+  gap: 12px;
+}
+
 .link {
   color: var(--c-white);
   font-size: 1.8rem;
