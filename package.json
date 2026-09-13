@@ -1,0 +1,26 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "https://aleksey-drozdov.github.io/rsschool-cv/cv",
+  "homepage": "https://github.com/aleksey-drozdov/rsschool-cv#readme",
+  "bugs": {
+    "url": "https://github.com/aleksey-drozdov/rsschool-cv/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksey-drozdov/rsschool-cv.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "lint:html": "linthtml source/*.html --config .linthtmlrc"
+  },
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.10.2",
+    "linthtml-config-htmlacademy": "^2.0.0",
+    "stylelint": "^17.15.0",
+    "stylelint-config-htmlacademy": "^5.0.0"
+  }
+}

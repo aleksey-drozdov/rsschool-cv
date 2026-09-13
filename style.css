@@ -1,4 +1,172 @@
-h1 {
-  font-size: 24px;
-  color: #072378;
+:root {
+  --c-bg: #081eca;
+  --c-white: #fff;
+  --c-title: #2837b5
 }
+
+/**
+ * Common styles
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 12px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  color: var(--c-title);
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+}
+
+/**
+ * Header
+ */
+.header {
+  background-color: var(--c-bg);
+  padding: 12px 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 12px;
+}
+
+.link {
+  color: var(--c-white);
+  font-size: 1.8rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.link:hover {
+  border-bottom: 2px solid var(--c-white);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 24px;
+  padding: 24px 0;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 2.4rem;
+  color: var(--c-title);
+}
+
+.contacts-list {
+  display: flex;
+  gap: 12px;
+}
+
+.contacts-list li {
+  font-size: 1.8rem;
+}
+
+.skill {
+  font-size: 1.8rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  list-style-type: "👉️ ";
+  margin-left: 20px;
+}
+
+.code-wrap {
+  background-color: #000;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 16px;
+  color: var(--c-white);
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.language {
+  font-size: 1.8rem;
+}
+
+/**
+ * Footer
+ */
+.footer {
+  background-color: var(--c-bg);
+  padding: 12px 0;
+  color: var(--c-white);
+  font-size: 1.8rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
