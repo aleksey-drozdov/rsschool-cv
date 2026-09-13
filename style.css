@@ -41,7 +41,7 @@ html {
 /**
  * Header
  */
-.header{
+.header {
   background-color: var(--c-bg);
   padding: 12px 0;
 }
@@ -55,6 +55,44 @@ html {
 
 .link:hover {
   border-bottom: 2px solid var(--c-white);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 2.4rem;
+  color: var(--c-title);
+}
+
+.contacts-list {
+  display: flex;
+  gap: 12px;
+}
+
+.contacts-list li {
+  font-size: 1.8rem;
 }
 
 /**
