@@ -123,6 +123,16 @@ section {
   list-style-type: "👉️ ";
   margin-left: 20px;
 }
+
+.code-wrap {
+  background-color: #000;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 16px;
+  color: var(--c-white);
+}
 /**
  * Footer
  */
